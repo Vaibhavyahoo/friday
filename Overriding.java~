@@ -1,0 +1,22 @@
+class Sample1
+{
+void run()
+{
+System.out.println("vehicle is on the way");
+}
+}
+class Sample extends Sample1
+{
+void run()
+{
+System.out.println("vehicle is reached");
+}
+}
+ public class Overriding
+{
+public static void main(String []args)
+{
+Sample1 s1 =new Sample1();
+s1.run();
+}
+}
